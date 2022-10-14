@@ -1,0 +1,25 @@
+body{
+    background-color: rgba(30, 8, 124, 0.76);
+    height:  100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    max-width: 590px;
+    margin: auto
+}
+div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+div:nth-child(3n+1){
+    background-color: green;
+}
+div:nth-child(3n+2){
+    background-color: yellow;
+}
+div:nth-child(3n+3){
+    background-color: red;
+}
